@@ -1,0 +1,56 @@
+@import "../lib/lesshat/build/lesshat.less";
+
+#filebrowser {
+	max-height: 500px;
+	
+	position: relative;
+	
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.folder {
+	
+	& > label {
+		cursor: pointer;
+	}
+
+	& input[type=checkbox] {
+		opacity: 0;
+
+		& + ul > li {
+			display: none;
+		}
+
+		&:checked + ul > li {
+			display: block;
+		}
+	}
+	
+} 
+
+ul {
+	&.tree-file {
+		list-style-type: none;
+		padding-left: 0;
+	}
+};
+
+.folder > span,
+.file > span {
+
+	.user-select(none);
+
+	&.select {
+		font-weight: bold;	
+	}
+};
+
+#fileBrowserContextMenu {
+	position: fixed;
+  z-index: 9999;
+}
+
+.validationMessage {
+	color: red;
+}
