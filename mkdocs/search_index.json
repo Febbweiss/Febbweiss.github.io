@@ -1,0 +1,399 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome\n\n\nI made some projects and published them on \nGitHub\n.\nIn this space, you will find some of them. Basiclly, these pages are \nREADME\n files but with some adds and demos.\n\n\nDifferent projects for different needs :\n\n\n\n\nDevelopment\n\n\nJava\n\n\nSpringboot / React / Webpack\n\n\n\n\n\n\nNodeJS\n\n\nCloudBudget\n (Express)\n\n\nProject deployer\n (Meteor)\n\n\n\n\n\n\nClient-side\n\n\nCloudBudget-AngularJS\n (Express / AngularJS)\n\n\nDurandal filebrowser widget\n (DurandalJS)\n\n\n\n\n\n\n\n\n\n\nDocker\n\n\nFullstack servers\n\n\nLog centralizer\n ELK stack with Kafka\n\n\nGoCD\n GoCD server and agents\n\n\n\n\n\n\nUtilities\n\n\nApache log generator\n\n\n\n\n\n\n\n\n\n\nJavascript games\n\n\nSpace invaders\n\n\nPacman\n\n\nPyramid\n\n\nYahtzee", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome", 
+            "text": "I made some projects and published them on  GitHub .\nIn this space, you will find some of them. Basiclly, these pages are  README  files but with some adds and demos.  Different projects for different needs :   Development  Java  Springboot / React / Webpack    NodeJS  CloudBudget  (Express)  Project deployer  (Meteor)    Client-side  CloudBudget-AngularJS  (Express / AngularJS)  Durandal filebrowser widget  (DurandalJS)      Docker  Fullstack servers  Log centralizer  ELK stack with Kafka  GoCD  GoCD server and agents    Utilities  Apache log generator      Javascript games  Space invaders  Pacman  Pyramid  Yahtzee", 
+            "title": "Welcome"
+        }, 
+        {
+            "location": "/development/cloudbudget/", 
+            "text": "Introduction \n \n\n\nCloudbudget is a work-in-progress online Money-like application.\n\n\nIt's written using ExpressJS and provided only REST services. The web interface is in a different project \nCloudBugdet-AngularJS\n.\n\n\nRequirements\n\n\nCloudBudget needs a Mongo database. Database configuration is done in the \nconfig/db.js\n file.\n\n\nThe environment mode is defined by the environment variable NODE_ENV.\n\n\nFeatures\n\n\nThe following features are developed:\n\n\n\n\nAPI security done with JWT\n\n\nAPI documentation\n\n\nUser log on / log in\n\n\nUser deregistration\n\n\nBank account CRUD\n\n\nBank accounts listing\n\n\nDeposit / Bill entry CRUD\n\n\nDeposit / Bill entries listing\n\n\n\n\nUsage\n\n\nTo initialize the application, install all dependencies with\n\n\nnpm install\n\n\n\n\nTo launch CloudBudget, use the following command :\n\n\nNODE_ENV=development node app.js\n\n\n\n\nIf the PORT environment variable is set, it will be used, if not, the default port is 3000.\nThe server configuration is done with the \nconfig/server.js\n file.\n\n\nAPI documentation\n\n\nThe root URL is linked to the API documentation.\nThe API documentation is generated with apidocs into the \npublic\n folder. To generate it, use the following command :\n\n\nnpm run-script generate-doc\n\n\n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Cloudbudget"
+        }, 
+        {
+            "location": "/development/cloudbudget/#introduction", 
+            "text": "Cloudbudget is a work-in-progress online Money-like application.  It's written using ExpressJS and provided only REST services. The web interface is in a different project  CloudBugdet-AngularJS .", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/development/cloudbudget/#requirements", 
+            "text": "CloudBudget needs a Mongo database. Database configuration is done in the  config/db.js  file.  The environment mode is defined by the environment variable NODE_ENV.", 
+            "title": "Requirements"
+        }, 
+        {
+            "location": "/development/cloudbudget/#features", 
+            "text": "The following features are developed:   API security done with JWT  API documentation  User log on / log in  User deregistration  Bank account CRUD  Bank accounts listing  Deposit / Bill entry CRUD  Deposit / Bill entries listing", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/development/cloudbudget/#usage", 
+            "text": "To initialize the application, install all dependencies with  npm install  To launch CloudBudget, use the following command :  NODE_ENV=development node app.js  If the PORT environment variable is set, it will be used, if not, the default port is 3000.\nThe server configuration is done with the  config/server.js  file.", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/development/cloudbudget/#api-documentation", 
+            "text": "The root URL is linked to the API documentation.\nThe API documentation is generated with apidocs into the  public  folder. To generate it, use the following command :  npm run-script generate-doc   \n  Fork me on GitHub", 
+            "title": "API documentation"
+        }, 
+        {
+            "location": "/development/cloudbudget_angularjs/", 
+            "text": "Introduction \n \n\n\nCloudbudget-AngularJS is a work-in-progress web application for \nCloudBugdet\n written in AngularJS.\n\n\nRequirements\n\n\nCloudBudget-AngularJS needs a running CloudBudget instance. The access to this instance is set in the \npublic/js/app.js\n file with the \nHOST\n variable.\n\n\nFeatures\n\n\nThis web application covers all CloudBudget features.\n\n\nUsage\n\n\nTo initialize the application, install all dependencies with\n\n\nnpm install\n\n\n\n\nTo launch CloudBudget, use the following command :\n\n\nNODE_ENV=development node app.js\n\n\n\n\nIf the PORT environment variable is set, it will be used, if not, the default port is 3000.\nThe server configuration is done with the \nconfig/server.js\n file.\n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Cloudbudget angularjs"
+        }, 
+        {
+            "location": "/development/cloudbudget_angularjs/#introduction", 
+            "text": "Cloudbudget-AngularJS is a work-in-progress web application for  CloudBugdet  written in AngularJS.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/development/cloudbudget_angularjs/#requirements", 
+            "text": "CloudBudget-AngularJS needs a running CloudBudget instance. The access to this instance is set in the  public/js/app.js  file with the  HOST  variable.", 
+            "title": "Requirements"
+        }, 
+        {
+            "location": "/development/cloudbudget_angularjs/#features", 
+            "text": "This web application covers all CloudBudget features.", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/development/cloudbudget_angularjs/#usage", 
+            "text": "To initialize the application, install all dependencies with  npm install  To launch CloudBudget, use the following command :  NODE_ENV=development node app.js  If the PORT environment variable is set, it will be used, if not, the default port is 3000.\nThe server configuration is done with the  config/server.js  file.   \n  Fork me on GitHub", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/development/filebrowser_durandal_widget/", 
+            "text": "Durandal Filebrowser widget\n\n\nWhat's this widget ?\n\n\nThis \nDurandal\n widget allows to display a folder tree and add some actions to manipulate this items :\n\n\n\n\nA clic on a file or folder selects it\n\n\nA double-clic opens / closes a folder\n\n\nA double-clic displays the file content in the editor\n\n\nA right-clic opens a context menu with different options\n\n\nRename the item\n\n\nCopy the selected item(s)\n\n\nPaste the selected item(s)\n\n\nCreate an item (in a folder)\n\n\nDelete an item (and its components)\n\n\n\n\n\n\n\n\nDemo\n\n\n\n    \n \n\n    \n\n\n\n\n   \n\n\nLicence\n\n\nSource code is under \nMIT Licence\n \n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Filebrowser durandal widget"
+        }, 
+        {
+            "location": "/development/filebrowser_durandal_widget/#durandal-filebrowser-widget", 
+            "text": "", 
+            "title": "Durandal Filebrowser widget"
+        }, 
+        {
+            "location": "/development/filebrowser_durandal_widget/#whats-this-widget", 
+            "text": "This  Durandal  widget allows to display a folder tree and add some actions to manipulate this items :   A clic on a file or folder selects it  A double-clic opens / closes a folder  A double-clic displays the file content in the editor  A right-clic opens a context menu with different options  Rename the item  Copy the selected item(s)  Paste the selected item(s)  Create an item (in a folder)  Delete an item (and its components)", 
+            "title": "What's this widget ?"
+        }, 
+        {
+            "location": "/development/filebrowser_durandal_widget/#demo", 
+            "text": "", 
+            "title": "Demo"
+        }, 
+        {
+            "location": "/development/filebrowser_durandal_widget/#licence", 
+            "text": "Source code is under  MIT Licence     \n  Fork me on GitHub", 
+            "title": "Licence"
+        }, 
+        {
+            "location": "/development/project_deployer/", 
+            "text": "Introduction\n\n\nProjectDeployer is a work-in-progress web application to deploy Git projects on a server written with Meteor.\n\n\nFeatures\n\n\nIn ProjectDeployer, it's possible to :\n\n\n\n\nregister / modify / delete Git project\n\n\ndeployment is \n\n\nsee deployment logs for each project\n\n\n\n\nUsage\n\n\nThe location for deployed projects is set in the \nserver/constants.js\n file with the \nDEPLOYMENT_FOLDER\n variable.\n\n\nTo launch ProjectDeployer, use the following command :\n\n\nmeteor --port $IP:$PORT\n\n\n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Project deployer"
+        }, 
+        {
+            "location": "/development/project_deployer/#introduction", 
+            "text": "ProjectDeployer is a work-in-progress web application to deploy Git projects on a server written with Meteor.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/development/project_deployer/#features", 
+            "text": "In ProjectDeployer, it's possible to :   register / modify / delete Git project  deployment is   see deployment logs for each project", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/development/project_deployer/#usage", 
+            "text": "The location for deployed projects is set in the  server/constants.js  file with the  DEPLOYMENT_FOLDER  variable.  To launch ProjectDeployer, use the following command :  meteor --port $IP:$PORT   \n  Fork me on GitHub", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/", 
+            "text": "springboot-react-webpack\n\n\nA demo project with Spring Boot, React and Webpack\n\n\nThis project includes :\n\n\n\n\nSpring Boot as backend resource\n\n\nReact as client JS framework\n\n\nwebpack to translate JSX to JS and manage client resources link\n\n\nmaven-release-plugin\n\n\ncf-maven-plugin\n\n\ndocker-maven-plugin (from Spotify)\n\n\n\n\nProfile\n\n\nThere are 3 profiles :\n\n\n\n\nthe default one (without specification) is for development mode.\n\n\nproduction\n used to generate the production ready client resources\n\n\ndocker\n to access to the Docker plugin and generate an image\n\n\n\n\nLaunching\n\n\nTo launch this project, just use the following command line :\n\n\nIn development mode :\n\n\nmvn clean spring-boot:run\nnpm run watch\n\n\n\n\nIn production mode :\n\n\nmvn clean spring-boot:run -P production\n\n\n\n\nWithout a profile, you have to run the webpack watcher to deliver client resources. With the \nproduction\n profile, no needs to launch the wepback watcher.\n\n\nConfiguration\n\n\nTo use the CloudFoundry and Release plugins, the \nsettings.xml\n must contains the following lines :\n\n\n  \nservers\n\n      \nserver\n\n              \nid\ncloudfoundry\n/id\n\n              \nusername\nusername\n/username\n\n              \npassword\npassword\n/password\n\n          \n/server\n\n      \nserver\n\n              \nid\ngithub\n/id\n\n              \nusername\nusername\n/username\n\n              \npassword\npassword\n/password\n\n          \n/server\n\n  \n/servers\n\n\n\n\n\nSpring Boot\n\n\nSpring Boot is used as the backend server. It provides the HTML pages and the REST endpoints.\nReact is server side compiled at runtime using nashorn.\n\n\nReact\n\n\nReact is the client side library. It's possible to write JSX which will be translate by webpack.\n\n\nWebpack\n\n\nConfiguration\n\n\nWebpack configuration is done by the \nwebpack.config.js\n file at the project's root.\n\n\nUsage\n\n\nWebpack is launched at the \ngenerate-resources\n maven phase.\nIn this configuration, webpack provides resources (JS and CSS) for commons librairies and custom JS scripts. It takes in account LESS. The HTML final resource is generated from a template adding the needed resources.\nUsing the default profile and the watcher, the HotModuleReplacement module is activated, so no need to refresh the page when updating a JS or a CSS, webpack does it.\n\n\nPlugin release\n\n\nConfiguration\n\n\nTo manage the release process with Git, you have to replace the link in the \ndeveloperConnection\n tag with the Git project URL.\n\n\nUsage\n\n\nThe \nmaven-release-plugin\n allows to release an app tagging the repository. A release is :\n\n changing from SNAPSHOT to stable\n\n creating a tag (locally and remotely)\n* increasing the SNAPSHOT version\n\n\nTwo steps :\n\n\nmvn release:prepare\nmvn release:perform\n\n\n\n\nTo rollback a \nprepare\n :\n\n\nmvn release:rollback\n\n\n\n\nTo test the release :\n\n\nmvn -DdryRun=true release:prepare\nmvn release:clean (test cleaning)\n\n\n\n\nDocumentation\n\n\nhttps://maven.apache.org/maven-release/maven-release-plugin/index.html\n\n\nPlugin CloudFoundry\n\n\nConfiguration\n\n\nChange the \nTOFILL\n strings in the comment plugin's section.\n\n\nUsage\n\n\nThe \ncf-maven-plugin\n plugin allows to manage the application in a CloudFoundry platform and specifically to push it :\n\n\nmvn cf:push\n\n\n\n\nDocumentation\n\n\nhttp://docs.cloudfoundry.org/buildpacks/java/build-tool-int.html\n\n\nPlugin Docker\n\n\nConfiguration\n\n\nThe \ndocker-maven-plugin\n (from Spotify) plugin has no configuration.\n\n\nUsage\n\n\nThe default project packaging (for CloudFoundry) is a WAR. In the Docker image, we use a JAR. To use this plugin (and the correct packaging), use the \ndocker\n profile :\n\n\nmvn package -P docker\n\n\n\n\nThis command generates a local Docker image. To manage it, use the \ndocker\n profile to access the \ndocker-maven-plugin\n (such as push it).\n\n\nDocumentation\n\n\nhttps://github.com/spotify/docker-maven-plugin\n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Springboot react webpack"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#springboot-react-webpack", 
+            "text": "A demo project with Spring Boot, React and Webpack  This project includes :   Spring Boot as backend resource  React as client JS framework  webpack to translate JSX to JS and manage client resources link  maven-release-plugin  cf-maven-plugin  docker-maven-plugin (from Spotify)", 
+            "title": "springboot-react-webpack"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#profile", 
+            "text": "There are 3 profiles :   the default one (without specification) is for development mode.  production  used to generate the production ready client resources  docker  to access to the Docker plugin and generate an image", 
+            "title": "Profile"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#launching", 
+            "text": "To launch this project, just use the following command line :  In development mode :  mvn clean spring-boot:run\nnpm run watch  In production mode :  mvn clean spring-boot:run -P production  Without a profile, you have to run the webpack watcher to deliver client resources. With the  production  profile, no needs to launch the wepback watcher.", 
+            "title": "Launching"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#configuration", 
+            "text": "To use the CloudFoundry and Release plugins, the  settings.xml  must contains the following lines :     servers \n       server \n               id cloudfoundry /id \n               username username /username \n               password password /password \n           /server \n       server \n               id github /id \n               username username /username \n               password password /password \n           /server \n   /servers", 
+            "title": "Configuration"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#spring-boot", 
+            "text": "Spring Boot is used as the backend server. It provides the HTML pages and the REST endpoints.\nReact is server side compiled at runtime using nashorn.", 
+            "title": "Spring Boot"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#react", 
+            "text": "React is the client side library. It's possible to write JSX which will be translate by webpack.", 
+            "title": "React"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#webpack", 
+            "text": "", 
+            "title": "Webpack"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#configuration_1", 
+            "text": "Webpack configuration is done by the  webpack.config.js  file at the project's root.", 
+            "title": "Configuration"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#usage", 
+            "text": "Webpack is launched at the  generate-resources  maven phase.\nIn this configuration, webpack provides resources (JS and CSS) for commons librairies and custom JS scripts. It takes in account LESS. The HTML final resource is generated from a template adding the needed resources.\nUsing the default profile and the watcher, the HotModuleReplacement module is activated, so no need to refresh the page when updating a JS or a CSS, webpack does it.", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#plugin-release", 
+            "text": "", 
+            "title": "Plugin release"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#configuration_2", 
+            "text": "To manage the release process with Git, you have to replace the link in the  developerConnection  tag with the Git project URL.", 
+            "title": "Configuration"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#usage_1", 
+            "text": "The  maven-release-plugin  allows to release an app tagging the repository. A release is :  changing from SNAPSHOT to stable  creating a tag (locally and remotely)\n* increasing the SNAPSHOT version  Two steps :  mvn release:prepare\nmvn release:perform  To rollback a  prepare  :  mvn release:rollback  To test the release :  mvn -DdryRun=true release:prepare\nmvn release:clean (test cleaning)", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#documentation", 
+            "text": "https://maven.apache.org/maven-release/maven-release-plugin/index.html", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#plugin-cloudfoundry", 
+            "text": "", 
+            "title": "Plugin CloudFoundry"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#configuration_3", 
+            "text": "Change the  TOFILL  strings in the comment plugin's section.", 
+            "title": "Configuration"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#usage_2", 
+            "text": "The  cf-maven-plugin  plugin allows to manage the application in a CloudFoundry platform and specifically to push it :  mvn cf:push", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#documentation_1", 
+            "text": "http://docs.cloudfoundry.org/buildpacks/java/build-tool-int.html", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#plugin-docker", 
+            "text": "", 
+            "title": "Plugin Docker"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#configuration_4", 
+            "text": "The  docker-maven-plugin  (from Spotify) plugin has no configuration.", 
+            "title": "Configuration"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#usage_3", 
+            "text": "The default project packaging (for CloudFoundry) is a WAR. In the Docker image, we use a JAR. To use this plugin (and the correct packaging), use the  docker  profile :  mvn package -P docker  This command generates a local Docker image. To manage it, use the  docker  profile to access the  docker-maven-plugin  (such as push it).", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/development/springboot_react_webpack/#documentation_2", 
+            "text": "https://github.com/spotify/docker-maven-plugin   \n  Fork me on GitHub", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/docker/docker_apache_log_generator/", 
+            "text": "Docker Apache log generator\n\n\nThis is a simple Docker container to provide random apache logs.\nIt's based on \nFake-Apache-Log-Generator\n\n\nThe default behaviour is the following :\n\n\npython apache-fake-log-gen.py -o LOG -p /var/log/apache/apache -n 0 -s 3\n\n\n\n\nThe endless generated file is located in /var/log and a line is appended every 3 seconds.\n\n\nTimezone\n\n\nYou can change the timezone mounting \n/etc/timezone\n and \n/etc/localtime\n files with a file content such as :\n\n\nEurope/Paris\n\n\n\n\nLicences\n\n\nCopyright (c) 2017 Fabrice ECAILLE aka Febbweiss\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Docker apache log generator"
+        }, 
+        {
+            "location": "/docker/docker_apache_log_generator/#docker-apache-log-generator", 
+            "text": "This is a simple Docker container to provide random apache logs.\nIt's based on  Fake-Apache-Log-Generator  The default behaviour is the following :  python apache-fake-log-gen.py -o LOG -p /var/log/apache/apache -n 0 -s 3  The endless generated file is located in /var/log and a line is appended every 3 seconds.", 
+            "title": "Docker Apache log generator"
+        }, 
+        {
+            "location": "/docker/docker_apache_log_generator/#timezone", 
+            "text": "You can change the timezone mounting  /etc/timezone  and  /etc/localtime  files with a file content such as :  Europe/Paris", 
+            "title": "Timezone"
+        }, 
+        {
+            "location": "/docker/docker_apache_log_generator/#licences", 
+            "text": "Copyright (c) 2017 Fabrice ECAILLE aka Febbweiss  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.   \n  Fork me on GitHub", 
+            "title": "Licences"
+        }, 
+        {
+            "location": "/docker/docker_gocd/", 
+            "text": "Docker GoCD\n\n\nGoCD is a Continuous Delivery solution. This project embedded different containers such as a server and nodes.\n\n\nEmbedded containers\n\n\n\n\nGoCD server\n - The main container based on Debian image\n\n\nCloudfoundry agent\n - A node to deploy on CloudFoundry based on alpine image\n\n\nDocker agent\n - A node to build and deploy Docker containers based on docker image\n\n\nJava agent\n - A node to manage Java applications (compile / build) based on alpine-oraclejdk8 image\n\n\nNodeJS agent\n - A node to manage NodeJS applications (compile / build) based on Debian image\n\n\nGeneric agent\n - A node providing Java and NodeJS applications management based on Node image\n\n\n\n\nUsage\n\n\nThe full stack is manage with docker-compose. So, to launch it, just use\n\n\ndocker-compose up\n\n\n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Docker gocd"
+        }, 
+        {
+            "location": "/docker/docker_gocd/#docker-gocd", 
+            "text": "GoCD is a Continuous Delivery solution. This project embedded different containers such as a server and nodes.", 
+            "title": "Docker GoCD"
+        }, 
+        {
+            "location": "/docker/docker_gocd/#embedded-containers", 
+            "text": "GoCD server  - The main container based on Debian image  Cloudfoundry agent  - A node to deploy on CloudFoundry based on alpine image  Docker agent  - A node to build and deploy Docker containers based on docker image  Java agent  - A node to manage Java applications (compile / build) based on alpine-oraclejdk8 image  NodeJS agent  - A node to manage NodeJS applications (compile / build) based on Debian image  Generic agent  - A node providing Java and NodeJS applications management based on Node image", 
+            "title": "Embedded containers"
+        }, 
+        {
+            "location": "/docker/docker_gocd/#usage", 
+            "text": "The full stack is manage with docker-compose. So, to launch it, just use  docker-compose up   \n  Fork me on GitHub", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/docker/docker_log_centralizer/", 
+            "text": "Docker log centralizer\n\n\nThis a end-to-end log centralizer powered by the ELK stask.\n\n\nEmbedded containers\n\n\n\n\nFilebeat\n - An agent to poll logs\n\n\nLogstash-Forwarder\n - An other agent to poll logs\n\n\nLogstash\n - The collector / analyzer / parser solution\n\n\nKafka\n - The queueing solution for logs\n\n\nZooKeeper\n - The cluster on which Kafka is running\n\n\nElasticSearch\n - The indexing engine\n\n\nKibana\n - The visualization / dashboard tool for ElasticSearch\n\n\nKafka Manager\n - The Kafka cluster web manager\n\n\nApache log generator\n - A container generating fake apache logs\n\n\nRandom log generator\n - A container genrating text logs (Star Wars quotes)\n\n\n\n\nHow it works\n\n\nThere are 2 agent types :\n\n\n\n\nFilebeat\n\n\nLogstash-Forward\n\n\n\n\nThese agents push logs (from the apache and random generators) to a Logstasth shipper filling a Kafka queue (one type of log for one topic). \nA Logstash indexer polls the Kafka topics indexing logs into a ElasticSearch.\n\n\nA short schema :\n\n\nAgent -\n Logstach shipper -\n Kafka \n- Logstash indexer -\n ElasticSearch\n\n\n\n\nTools access\n\n\nKibana is available at http://localhost:5601.\nKafka Manager is available at http://localhost:9000\n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Docker log centralizer"
+        }, 
+        {
+            "location": "/docker/docker_log_centralizer/#docker-log-centralizer", 
+            "text": "This a end-to-end log centralizer powered by the ELK stask.", 
+            "title": "Docker log centralizer"
+        }, 
+        {
+            "location": "/docker/docker_log_centralizer/#embedded-containers", 
+            "text": "Filebeat  - An agent to poll logs  Logstash-Forwarder  - An other agent to poll logs  Logstash  - The collector / analyzer / parser solution  Kafka  - The queueing solution for logs  ZooKeeper  - The cluster on which Kafka is running  ElasticSearch  - The indexing engine  Kibana  - The visualization / dashboard tool for ElasticSearch  Kafka Manager  - The Kafka cluster web manager  Apache log generator  - A container generating fake apache logs  Random log generator  - A container genrating text logs (Star Wars quotes)", 
+            "title": "Embedded containers"
+        }, 
+        {
+            "location": "/docker/docker_log_centralizer/#how-it-works", 
+            "text": "There are 2 agent types :   Filebeat  Logstash-Forward   These agents push logs (from the apache and random generators) to a Logstasth shipper filling a Kafka queue (one type of log for one topic). \nA Logstash indexer polls the Kafka topics indexing logs into a ElasticSearch.  A short schema :  Agent -  Logstach shipper -  Kafka  - Logstash indexer -  ElasticSearch", 
+            "title": "How it works"
+        }, 
+        {
+            "location": "/docker/docker_log_centralizer/#tools-access", 
+            "text": "Kibana is available at http://localhost:5601.\nKafka Manager is available at http://localhost:9000   \n  Fork me on GitHub", 
+            "title": "Tools access"
+        }, 
+        {
+            "location": "/games/Space_invaders_stories/", 
+            "text": "Space invaders : Stories\n\n\nThis is \nSpace invaders\n implementation currently under construction.\n\n\nHow to\n\n\nThe goal is to avoid alien invasion.\nUse your keyboard arrows to move your hero and the space key to fire.\nWarning : your ammo are limited by your weapon rate of fire...\n\n\nThere are currently 3 different weapons :\n\n\n a shotgun\n\n\n a carot-machine gun\n\n\n a corn-grenade\n\n\n\n    \n \n\n    \n\n\n\n\n\n\nCredits\n\n\n\n\nGraphics : Fabrice Ecaille aka Febbweiss\n\n\nCode : Fabrice Ecaille aka Febbweiss\n\n\n\n\nLicences\n\n\nCopyright (c) 2013 Fabrice ECAILLE aka Febbweiss\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Space invaders stories"
+        }, 
+        {
+            "location": "/games/Space_invaders_stories/#space-invaders-stories", 
+            "text": "This is  Space invaders  implementation currently under construction.", 
+            "title": "Space invaders : Stories"
+        }, 
+        {
+            "location": "/games/Space_invaders_stories/#how-to", 
+            "text": "The goal is to avoid alien invasion.\nUse your keyboard arrows to move your hero and the space key to fire.\nWarning : your ammo are limited by your weapon rate of fire...  There are currently 3 different weapons :   a shotgun   a carot-machine gun   a corn-grenade", 
+            "title": "How to"
+        }, 
+        {
+            "location": "/games/Space_invaders_stories/#credits", 
+            "text": "Graphics : Fabrice Ecaille aka Febbweiss  Code : Fabrice Ecaille aka Febbweiss", 
+            "title": "Credits"
+        }, 
+        {
+            "location": "/games/Space_invaders_stories/#licences", 
+            "text": "Copyright (c) 2013 Fabrice ECAILLE aka Febbweiss  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.   \n  Fork me on GitHub", 
+            "title": "Licences"
+        }, 
+        {
+            "location": "/games/pacman/", 
+            "text": "Pacman\n\n\ngq-pacman is a jQuery implementation of the famous Namco\u00a9's Pacman\u00a9.\n\n\nHow to\n\n\nUse your keyboard arrows to move Pacman to eat all energizer to complete the level.\nGhosts become frightened when Pacman eats a big energizer. Eat them !!!\n\n\nBeware of ghost who haunt the maze !!! Each one has his own personality :\n\n\n\n\n\nBlinky tracks Pacman as his shadow.\n\n\n\n\n\nPinky perfoms ambushes to Pacman.\n\n\n\n\n\nInky is the least predictable.\n\n\n\n\n\nClyde pretends ignorance and is one who lags behind.\n\n\nDemo\n\n\n\n    \n \n\n    \n\n\n\n\n\n\nCredits\n\n\n\n\nGraphics : Fabrice Ecaille aka Febbweiss\n\n\nCode : Fabrice Ecaille aka Febbweiss\n\n\nAlgorithm : Based on the \n\"Pacman Dossier\"\n\n\nTools : \ngameQuery\n\n\nSounds : \nSound FX Center\n\n\n\n\nLicences\n\n\nSource code is under \nMIT Licence\n\nSprite is under \nCC BY-SA 3.0\n\n\n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Pacman"
+        }, 
+        {
+            "location": "/games/pacman/#pacman", 
+            "text": "gq-pacman is a jQuery implementation of the famous Namco\u00a9's Pacman\u00a9.", 
+            "title": "Pacman"
+        }, 
+        {
+            "location": "/games/pacman/#how-to", 
+            "text": "Use your keyboard arrows to move Pacman to eat all energizer to complete the level.\nGhosts become frightened when Pacman eats a big energizer. Eat them !!!  Beware of ghost who haunt the maze !!! Each one has his own personality :   Blinky tracks Pacman as his shadow.   Pinky perfoms ambushes to Pacman.   Inky is the least predictable.   Clyde pretends ignorance and is one who lags behind.", 
+            "title": "How to"
+        }, 
+        {
+            "location": "/games/pacman/#demo", 
+            "text": "", 
+            "title": "Demo"
+        }, 
+        {
+            "location": "/games/pacman/#credits", 
+            "text": "Graphics : Fabrice Ecaille aka Febbweiss  Code : Fabrice Ecaille aka Febbweiss  Algorithm : Based on the  \"Pacman Dossier\"  Tools :  gameQuery  Sounds :  Sound FX Center", 
+            "title": "Credits"
+        }, 
+        {
+            "location": "/games/pacman/#licences", 
+            "text": "Source code is under  MIT Licence \nSprite is under  CC BY-SA 3.0    \n  Fork me on GitHub", 
+            "title": "Licences"
+        }, 
+        {
+            "location": "/games/pyramid/", 
+            "text": "Pyramid\n\n\nPyramid is a jQuery implementation of the famous Pyramid solitaire game card.\n\n\nHow to\n\n\nThe goal is to remove all Pyramid's cards.\nTo remove a card, it must be associated with an other one and their sum must be equals to 13.\nEach card has is numeric value and Kings' value is 13 (no need to be associated with an other card), Queens' value is 12 and Jake' value is 11.\n\n\nDemo\n\n\n\n    \n \n\n    \n\n\n\n\n\n\nCredits\n\n\n\n\nGraphics : \nByron Knoll\n\n\nCode : Fabrice Ecaille aka Febbweiss\n\n\n\n\nLicences\n\n\nSource code is under \nMIT Licence\n\nCards sprite is under \nPublic domain\n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Pyramid"
+        }, 
+        {
+            "location": "/games/pyramid/#pyramid", 
+            "text": "Pyramid is a jQuery implementation of the famous Pyramid solitaire game card.", 
+            "title": "Pyramid"
+        }, 
+        {
+            "location": "/games/pyramid/#how-to", 
+            "text": "The goal is to remove all Pyramid's cards.\nTo remove a card, it must be associated with an other one and their sum must be equals to 13.\nEach card has is numeric value and Kings' value is 13 (no need to be associated with an other card), Queens' value is 12 and Jake' value is 11.", 
+            "title": "How to"
+        }, 
+        {
+            "location": "/games/pyramid/#demo", 
+            "text": "", 
+            "title": "Demo"
+        }, 
+        {
+            "location": "/games/pyramid/#credits", 
+            "text": "Graphics :  Byron Knoll  Code : Fabrice Ecaille aka Febbweiss", 
+            "title": "Credits"
+        }, 
+        {
+            "location": "/games/pyramid/#licences", 
+            "text": "Source code is under  MIT Licence \nCards sprite is under  Public domain   \n  Fork me on GitHub", 
+            "title": "Licences"
+        }, 
+        {
+            "location": "/games/yahtzee/", 
+            "text": "Yahtzee\n\n\nThe classical dice game Yahtzee\n\n\nHow to\n\n\nThe goal is to complete the two combinaisons grids with five dice\n\n\nEach player can launch three times the dice to have a combinaison. After each launch, the player chooses to keep or not some dice. Each combinaison has a score.\n\n\nWhen both grids are completed, their scores are added and the player with the higher score wins. If the upper grid has a score higher than 63 points, the player wins a bonus of 35 points.\n\n\n\n    \n \n\n    \n\n\n\n\n\n\nCredits\n\n\n\n\nGraphics : Fabrice Ecaille aka Febbweiss\n\n\nCode : Fabrice Ecaille aka Febbweiss\n\n\n\n\nLicences\n\n\nCopyright (c) 2013 Fabrice ECAILLE aka Febbweiss\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Yahtzee"
+        }, 
+        {
+            "location": "/games/yahtzee/#yahtzee", 
+            "text": "The classical dice game Yahtzee", 
+            "title": "Yahtzee"
+        }, 
+        {
+            "location": "/games/yahtzee/#how-to", 
+            "text": "The goal is to complete the two combinaisons grids with five dice  Each player can launch three times the dice to have a combinaison. After each launch, the player chooses to keep or not some dice. Each combinaison has a score.  When both grids are completed, their scores are added and the player with the higher score wins. If the upper grid has a score higher than 63 points, the player wins a bonus of 35 points.", 
+            "title": "How to"
+        }, 
+        {
+            "location": "/games/yahtzee/#credits", 
+            "text": "Graphics : Fabrice Ecaille aka Febbweiss  Code : Fabrice Ecaille aka Febbweiss", 
+            "title": "Credits"
+        }, 
+        {
+            "location": "/games/yahtzee/#licences", 
+            "text": "Copyright (c) 2013 Fabrice ECAILLE aka Febbweiss  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.   \n  Fork me on GitHub", 
+            "title": "Licences"
+        }
+    ]
+}

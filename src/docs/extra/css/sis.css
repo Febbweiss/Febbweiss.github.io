@@ -1,0 +1,26 @@
+.corn {
+	float: left;
+	background: transparent url('/demo/sis/images/farm.png') no-repeat top left;
+	background-position: -19px -37px;
+	width: 19px;
+	height: 19px;
+	margin-right: 5px;
+}
+
+.carot {
+	float: left;
+	background: transparent url('/demo/sis/images/farm.png') no-repeat top left;
+	background-position : -38px -37px;
+	width: 19px;
+	height: 19px;
+	margin-right: 5px;
+}
+
+.gun {
+	float: left;
+	background: transparent url('/demo/sis/images/farm.png') no-repeat top left;
+	background-position : -57px -37px;
+	width: 19px;
+	height: 19px;
+	margin-right: 5px;
+}

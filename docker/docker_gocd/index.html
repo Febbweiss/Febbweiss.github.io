@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>Docker gocd - Febbweiss</title>
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  <link href="../../extra/css/extra.css" rel="stylesheet">
+  <link href="../../extra/css/sis.css" rel="stylesheet">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Docker gocd";
+    var mkdocs_page_input_path = "docker/docker_gocd.md";
+    var mkdocs_page_url = "/docker/docker_gocd/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+  <script src="../../extra/js/pacman.js"></script>
+  <script src="../../extra/js/pyramid.js"></script>
+  <script src="../../extra/js/sis.js"></script>
+  <script src="../../extra/js/yahtzee.js"></script>
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Febbweiss</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Development</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../development/cloudbudget/">Cloudbudget</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../development/cloudbudget_angularjs/">Cloudbudget angularjs</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../development/filebrowser_durandal_widget/">Filebrowser durandal widget</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../development/project_deployer/">Project deployer</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../development/springboot_react_webpack/">Springboot react webpack</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Docker</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../docker_apache_log_generator/">Docker apache log generator</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Docker gocd</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#docker-gocd">Docker GoCD</a></li>
+                
+                    <li><a class="toctree-l4" href="#embedded-containers">Embedded containers</a></li>
+                
+                    <li><a class="toctree-l4" href="#usage">Usage</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../docker_log_centralizer/">Docker log centralizer</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Games</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../games/Space_invaders_stories/">Space invaders stories</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../games/pacman/">Pacman</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../games/pyramid/">Pyramid</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../games/yahtzee/">Yahtzee</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Febbweiss</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Docker &raquo;</li>
+        
+      
+    
+    <li>Docker gocd</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/febbweiss/" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="docker-gocd">Docker GoCD</h1>
+<p>GoCD is a Continuous Delivery solution. This project embedded different containers such as a server and nodes.</p>
+<h2 id="embedded-containers">Embedded containers</h2>
+<ol>
+<li><a href="https://github.com/Febbweiss/gocd-docker/tree/master/gocd-server">GoCD server</a> - The main container based on Debian image</li>
+<li><a href="https://github.com/Febbweiss/gocd-docker/tree/master/gocd-agent-cloudfoundry">Cloudfoundry agent</a> - A node to deploy on CloudFoundry based on alpine image</li>
+<li><a href="https://github.com/Febbweiss/gocd-docker/tree/master/gocd-agent-docker">Docker agent</a> - A node to build and deploy Docker containers based on docker image</li>
+<li><a href="https://github.com/Febbweiss/gocd-docker/tree/master/gocd-agent-jdk8">Java agent</a> - A node to manage Java applications (compile / build) based on alpine-oraclejdk8 image</li>
+<li><a href="https://github.com/Febbweiss/gocd-docker/tree/master/gocd-agent-nodejs">NodeJS agent</a> - A node to manage NodeJS applications (compile / build) based on Debian image</li>
+<li><a href="https://github.com/Febbweiss/gocd-docker/tree/master/gocd-agent">Generic agent</a> - A node providing Java and NodeJS applications management based on Node image</li>
+</ol>
+<h2 id="usage">Usage</h2>
+<p>The full stack is manage with docker-compose. So, to launch it, just use</p>
+<pre><code>docker-compose up
+</code></pre>
+
+<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" />
+<!--[if lt IE 9]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.ie.min.css" />
+<![endif]-->
+ <a class="github-fork-ribbon" href="https://github.com/Febbweiss/gocd-docker" target="_blank" title="Fork me on GitHub">Fork me on GitHub</a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../docker_log_centralizer/" class="btn btn-neutral float-right" title="Docker log centralizer">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../docker_apache_log_generator/" class="btn btn-neutral" title="Docker apache log generator"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/febbweiss/" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../docker_apache_log_generator/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../docker_log_centralizer/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>
