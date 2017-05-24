@@ -18,7 +18,7 @@ This a end-to-end log centralizer powered by the ELK stask.
 
 ##How it works
 
-There are 2 agent types :
+There are 3 agent types :
 
  - Filebeat
  - Logstash-Forward
