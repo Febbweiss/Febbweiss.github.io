@@ -20,6 +20,7 @@ Different projects for different needs :
 		+ [GoCD](/docker/docker_gocd) GoCD server and agents
 	- Utilities
 	    + [Apache log generator](/docker/docker_apache_log_generator)
+		+ [Java log generator](/docker/docker_java_log_generator)
 * Javascript games
     -  [Space invaders](/games/Space_invaders_stories)
 	-  [Pacman](/games/pacman)
