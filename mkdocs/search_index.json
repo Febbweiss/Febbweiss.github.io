@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome\n\n\nI made some projects and published them on \nGitHub\n.\nIn this space, you will find some of them. Basiclly, these pages are \nREADME\n files but with some adds and demos.\n\n\nDifferent projects for different needs :\n\n\n\n\nDevelopment\n\n\nJava\n\n\nSpringboot / React / Webpack\n\n\n\n\n\n\nNodeJS\n\n\nCloudBudget\n (Express)\n\n\nProject deployer\n (Meteor)\n\n\n\n\n\n\nClient-side\n\n\nCloudBudget-AngularJS\n (Express / AngularJS)\n\n\nDurandal filebrowser widget\n (DurandalJS)\n\n\n\n\n\n\n\n\n\n\nDocker\n\n\nFullstack servers\n\n\nLog centralizer\n ELK stack with Kafka\n\n\nGoCD\n GoCD server and agents\n\n\n\n\n\n\nUtilities\n\n\nApache log generator\n\n\nJava log generator\n\n\n\n\n\n\n\n\n\n\nJavascript games\n\n\nSpace invaders\n\n\nPacman\n\n\nPyramid\n\n\nYahtzee", 
+            "text": "Welcome\n\n\nI made some projects and published them on \nGitHub\n.\nIn this space, you will find some of them. Basiclly, these pages are \nREADME\n files but with some adds and demos.\n\n\nDifferent projects for different needs :\n\n\n\n\nDevelopment\n\n\nJava\n\n\nSpringboot / React / Webpack\n\n\n\n\n\n\nNodeJS\n\n\nCloudBudget\n (Express)\n\n\nProject deployer\n (Meteor)\n\n\n\n\n\n\nClient-side\n\n\nCloudBudget-AngularJS\n (Express / AngularJS)\n\n\nDurandal filebrowser widget\n (DurandalJS)\n\n\n\n\n\n\n\n\n\n\nDocker\n\n\nFullstack servers\n\n\nLog centralizer\n ELK stack with Kafka\n\n\nGoCD\n GoCD server and agents\n\n\n\n\n\n\nUtilities\n\n\nApache log generator\n\n\nJava log generator\n\n\n\n\n\n\n\n\n\n\nJavascript games\n\n\nSpace invaders\n\n\nPacman\n\n\nPyramid\n\n\nWord Fighters\n \n\n\nYahtzee", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome", 
-            "text": "I made some projects and published them on  GitHub .\nIn this space, you will find some of them. Basiclly, these pages are  README  files but with some adds and demos.  Different projects for different needs :   Development  Java  Springboot / React / Webpack    NodeJS  CloudBudget  (Express)  Project deployer  (Meteor)    Client-side  CloudBudget-AngularJS  (Express / AngularJS)  Durandal filebrowser widget  (DurandalJS)      Docker  Fullstack servers  Log centralizer  ELK stack with Kafka  GoCD  GoCD server and agents    Utilities  Apache log generator  Java log generator      Javascript games  Space invaders  Pacman  Pyramid  Yahtzee", 
+            "text": "I made some projects and published them on  GitHub .\nIn this space, you will find some of them. Basiclly, these pages are  README  files but with some adds and demos.  Different projects for different needs :   Development  Java  Springboot / React / Webpack    NodeJS  CloudBudget  (Express)  Project deployer  (Meteor)    Client-side  CloudBudget-AngularJS  (Express / AngularJS)  Durandal filebrowser widget  (DurandalJS)      Docker  Fullstack servers  Log centralizer  ELK stack with Kafka  GoCD  GoCD server and agents    Utilities  Apache log generator  Java log generator      Javascript games  Space invaders  Pacman  Pyramid  Word Fighters    Yahtzee", 
             "title": "Welcome"
         }, 
         {
@@ -384,6 +384,31 @@
             "location": "/games/pyramid/#licences", 
             "text": "Source code is under  MIT Licence \nCards sprite is under  Public domain   \n  Fork me on GitHub", 
             "title": "Licences"
+        }, 
+        {
+            "location": "/games/wordfighters/", 
+            "text": "Word Fighters\n\n\nWord Fighters\n is a word game where you must find a maximum words to get the highscore.\n\n\nHow to\n\n\nWhen you click on the \"Start\" button, a combinaison of letters is generated.\n\n\nThe goal is to retrieve a maximum of words with these letters using your keyboard.\n\n\nTo validate a word, simply press the \"Enter\" key.\n\n\nTo get new letters, press the \"Space\" bar.\n\n Easy : Search words between 3 and 7 letters\n\n Medium : Search words between 3 and 6 letters\n\n Hard : Search words between 4 and 7 letters\n\n Extreme : No escape ! You can\\'t have new letters before reach all words !\n\n\nIf you are blocked, you can switch letters but be careful : you loose 5 points per words not found !!\n\n\n\n    \n \n\n    \n\n\n\n\n\n\nUnder the hood\n\n\nOriginally designed to run with a server, it's playable such as.\nIf running with a server, 2 modes are availables :\n\n 1 player : Try to beat your highscore. Include the \nwordfighters_single.js\n to enable the server pipe.\n\n 2 players : Try to defeat your opponent hitting him/her. The longest the word found is, the stongest damages are !! Include the \nwordfighters_multplayer.js\n to enable the server pipe.\n\n\nWords dictionary is provided by the \nScrabble-Resolver\n project.\nCurrently, only english and french dictionaries are provided.\n\n\nCredits\n\n\n\n\nGraphics : Namco\n from \"Super Puzzle Fighters 2\" and \"Super Gems Fighters\n\n\nCode : Fabrice Ecaille aka Febbweiss\n\n\nTools : gameQuery\n\n\n\n\nCopyright (c) 2013 Fabrice ECAILLE aka Febbweiss\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Wordfighters"
+        }, 
+        {
+            "location": "/games/wordfighters/#word-fighters", 
+            "text": "Word Fighters  is a word game where you must find a maximum words to get the highscore.", 
+            "title": "Word Fighters"
+        }, 
+        {
+            "location": "/games/wordfighters/#how-to", 
+            "text": "When you click on the \"Start\" button, a combinaison of letters is generated.  The goal is to retrieve a maximum of words with these letters using your keyboard.  To validate a word, simply press the \"Enter\" key.  To get new letters, press the \"Space\" bar.  Easy : Search words between 3 and 7 letters  Medium : Search words between 3 and 6 letters  Hard : Search words between 4 and 7 letters  Extreme : No escape ! You can\\'t have new letters before reach all words !  If you are blocked, you can switch letters but be careful : you loose 5 points per words not found !!", 
+            "title": "How to"
+        }, 
+        {
+            "location": "/games/wordfighters/#under-the-hood", 
+            "text": "Originally designed to run with a server, it's playable such as.\nIf running with a server, 2 modes are availables :  1 player : Try to beat your highscore. Include the  wordfighters_single.js  to enable the server pipe.  2 players : Try to defeat your opponent hitting him/her. The longest the word found is, the stongest damages are !! Include the  wordfighters_multplayer.js  to enable the server pipe.  Words dictionary is provided by the  Scrabble-Resolver  project.\nCurrently, only english and french dictionaries are provided.", 
+            "title": "Under the hood"
+        }, 
+        {
+            "location": "/games/wordfighters/#credits", 
+            "text": "Graphics : Namco  from \"Super Puzzle Fighters 2\" and \"Super Gems Fighters  Code : Fabrice Ecaille aka Febbweiss  Tools : gameQuery   Copyright (c) 2013 Fabrice ECAILLE aka Febbweiss  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.   \n  Fork me on GitHub", 
+            "title": "Credits"
         }, 
         {
             "location": "/games/yahtzee/", 

@@ -4,7 +4,7 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,31 +13,31 @@
         
     <url>
      <loc>None/development/cloudbudget/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/development/cloudbudget_angularjs/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/development/filebrowser_durandal_widget/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/development/project_deployer/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/development/springboot_react_webpack/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -47,25 +47,25 @@
         
     <url>
      <loc>None/docker/docker_apache_log_generator/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/docker/docker_gocd/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/docker/docker_java_log_generator/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/docker/docker_log_centralizer/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -75,25 +75,31 @@
         
     <url>
      <loc>None/games/Space_invaders_stories/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/games/pacman/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/games/pyramid/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/games/wordfighters/</loc>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/games/yahtzee/</loc>
-     <lastmod>2017-05-24</lastmod>
+     <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

@@ -25,4 +25,5 @@ Different projects for different needs :
     -  [Space invaders](/games/Space_invaders_stories)
 	-  [Pacman](/games/pacman)
 	-  [Pyramid](/games/pyramid)
+	-  [Word Fighters](/games/wordfighters)	
 	-  [Yahtzee](/games/yahtzee)
