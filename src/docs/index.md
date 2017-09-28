@@ -7,7 +7,8 @@ Different projects for different needs :
 
 * Development
     - Java
-	    + [Springboot / React / Webpack](/development/springboot_react_webpack)
+	    + [Scrabble resolver](/development/scrabble_resolver)
+		+ [Springboot / React / Webpack](/development/springboot_react_webpack)
 	- NodeJS
 	    + [CloudBudget](/development/cloudbudget) (Express)
 	    + [Project deployer](/development/project_deployer) (Meteor)

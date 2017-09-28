@@ -8,7 +8,7 @@
   
   
   
-  <title>Yahtzee - Febbweiss</title>
+  <title>Scrabble resolver - Febbweiss</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -25,9 +25,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Yahtzee";
-    var mkdocs_page_input_path = "games/yahtzee.md";
-    var mkdocs_page_url = "/games/yahtzee/";
+    var mkdocs_page_name = "Scrabble resolver";
+    var mkdocs_page_input_path = "development/scrabble_resolver.md";
+    var mkdocs_page_url = "/development/scrabble_resolver/";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js"></script>
@@ -74,42 +74,57 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../development/cloudbudget/">Cloudbudget</a>
+        <a class="" href="../cloudbudget/">Cloudbudget</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../development/cloudbudget_angularjs/">Cloudbudget angularjs</a>
+        <a class="" href="../cloudbudget_angularjs/">Cloudbudget angularjs</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../development/filebrowser_durandal_widget/">Filebrowser durandal widget</a>
+        <a class="" href="../filebrowser_durandal_widget/">Filebrowser durandal widget</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../development/project_deployer/">Project deployer</a>
+        <a class="" href="../project_deployer/">Project deployer</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Scrabble resolver</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#scrabble-resolver">scrabble-resolver</a></li>
+                
+                    <li><a class="toctree-l4" href="#usage">Usage</a></li>
+                
+                    <li><a class="toctree-l4" href="#building-a-resolver">Building a resolver</a></li>
+                
+                    <li><a class="toctree-l4" href="#resolving-enigmas">Resolving enigmas</a></li>
+                
+                    <li><a class="toctree-l4" href="#licences">Licences</a></li>
+                
+            
+            </ul>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../development/scrabble_resolver/">Scrabble resolver</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../../development/springboot_react_webpack/">Springboot react webpack</a>
+        <a class="" href="../springboot_react_webpack/">Springboot react webpack</a>
         
     </li>
 
@@ -160,48 +175,35 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../Space_invaders_stories/">Space invaders stories</a>
+        <a class="" href="../../games/Space_invaders_stories/">Space invaders stories</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../pacman/">Pacman</a>
+        <a class="" href="../../games/pacman/">Pacman</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../pyramid/">Pyramid</a>
+        <a class="" href="../../games/pyramid/">Pyramid</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../wordfighters/">Wordfighters</a>
+        <a class="" href="../../games/wordfighters/">Wordfighters</a>
         
     </li>
 
         
             
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Yahtzee</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#yahtzee">Yahtzee</a></li>
-                
-                    <li><a class="toctree-l4" href="#how-to">How to</a></li>
-                
-                    <li><a class="toctree-l4" href="#credits">Credits</a></li>
-                
-                    <li><a class="toctree-l4" href="#licences">Licences</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../../games/yahtzee/">Yahtzee</a>
         
     </li>
 
@@ -231,11 +233,11 @@
     
       
         
-          <li>Games &raquo;</li>
+          <li>Development &raquo;</li>
         
       
     
-    <li>Yahtzee</li>
+    <li>Scrabble resolver</li>
     <li class="wy-breadcrumbs-aside">
       
         
@@ -249,24 +251,51 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="yahtzee">Yahtzee</h1>
-<p>The classical dice game Yahtzee</p>
-<h2 id="how-to">How to</h2>
-<p>The goal is to complete the two combinaisons grids with five dice</p>
-<p>Each player can launch three times the dice to have a combinaison. After each launch, the player chooses to keep or not some dice. Each combinaison has a score.</p>
-<p>When both grids are completed, their scores are added and the player with the higher score wins. If the upper grid has a score higher than 63 points, the player wins a bonus of 35 points.</p>
-<p><object data="/demo/yahtzee/index.html" width="620" height="870">
-    <embed src="/demo/yahtzee/index.html" width="620" height="870"> </embed>
-    <iframe scrolling="no" frameborder="0" src="/demo/yahtzee/index.html" style="width: 620px; height: 870px; overflow:hidden;">
-</iframe>
-</object></p>
-<h2 id="credits">Credits</h2>
+                <h1 id="scrabble-resolver">scrabble-resolver</h1>
+<p>This project builds language resolvers to resolve Scrabble enigmas.</p>
+<h2 id="usage">Usage</h2>
+<pre><code>usage: Main [-b &lt;source&gt;] [-h] -l &lt;language&gt; [-max &lt;max&gt;] [-min &lt;min&gt;] [-r &lt;letters&gt;]
+ -b,--build &lt;source&gt;      Build a new dictionary from the source file (a
+                          Linux words file)
+ -h,--help                Display help message
+ -l,--lang &lt;language&gt;     Language (in [english, french])
+ -max,--max &lt;max&gt;         Maximum word length (default : 7)
+ -min,--min &lt;min&gt;         Minimum word length (default : 3)
+ -r,--resolve &lt;letters&gt;   Find words with the given letters
+</code></pre>
+
+<p>This project can be used to provide data to game such as <a href="../../games/wordfighters/">Word Fighters</a>.</p>
+<h2 id="building-a-resolver">Building a resolver</h2>
+<p>This project comes with 2 resolvers :</p>
 <ul>
-<li>Graphics : Fabrice Ecaille aka Febbweiss</li>
-<li>Code : Fabrice Ecaille aka Febbweiss</li>
+<li>English (British)</li>
+<li>French</li>
 </ul>
+<p>To generate new ones, just use a file with one word per line (such as Linux  <em><a href="https://en.wikipedia.org/wiki/Words_(Unix)">words</a></em>) and run the Main providing the following parameters :</p>
+<ul>
+<li>--build followed by the path to the file to parse</li>
+<li>--lang to provide the language</li>
+</ul>
+<p>You can configure words the will be manage by the resolver using the <em>--min</em> and <em>--max</em> parameters. Only words with length between <em>--min</em> and <em>--max</em> will be manage.</p>
+<p>The resolver will be generated in the <em>src/main/resource/resolvers</em> folder. To use it, rebuild the project :</p>
+<pre><code>mvn clean package
+</code></pre>
+
+<h2 id="resolving-enigmas">Resolving enigmas</h2>
+<p>You can generate and resolve engima just using the <em>--lang</em> parameter. A enigma will be generated and resolved using default parameters. You can custom resolution using the <em>--min</em> and <em>--max</em> parameters.</p>
+<p>You can provide a letter suite to resolve using the <em>--resolve</em> parameter, ie :</p>
+<pre><code>$&gt; Main -l english -r achilst
+Resolver in english loaded in 388ms.
+Letters : achilst
+Words between 3 and 7 letters : 
+    with 5 letters (14): [chats, chits, clash, hails, halts, hilts, latch, laths, saith, shalt, staci, tails, thais, tisha]
+    with 4 letters (35): [acts, ails, alit, cali, cash, cast, cats, chat, chit, hail, hals, halt, hats, hilt, hits, itch, lash, last, lath, lats, lisa, list, sail, salt, scat, shat, shit, silt, slat, slit, tail, talc, thai, this, tics]
+    with 3 letters (23): [act, ail, ali, ash, ats, cal, cat, chi, hal, has, hat, his, hit, ila, its, lit, sac, sal, sat, sic, sit, tia, tic]
+
+</code></pre>
+
 <h2 id="licences">Licences</h2>
-<p>Copyright (c) 2013 Fabrice ECAILLE aka Febbweiss</p>
+<p>Copyright (c) 2017 Fabrice ECAILLE aka Febbweiss</p>
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
 <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
@@ -274,7 +303,7 @@
 <!--[if lt IE 9]>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.ie.min.css" />
 <![endif]-->
- <a class="github-fork-ribbon" href="https://github.com/Febbweiss/js-yahtzee" target="_blank" title="Fork me on GitHub">Fork me on GitHub</a></p>
+ <a class="github-fork-ribbon" href="https://github.com/Febbweiss/scrabble-resolver" target="_blank" title="Fork me on GitHub">Fork me on GitHub</a></p>
               
             </div>
           </div>
@@ -282,8 +311,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="../springboot_react_webpack/" class="btn btn-neutral float-right" title="Springboot react webpack">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-        <a href="../wordfighters/" class="btn btn-neutral" title="Wordfighters"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+        <a href="../project_deployer/" class="btn btn-neutral" title="Project deployer"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -311,8 +342,10 @@
           <a href="https://github.com/febbweiss/" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../wordfighters/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../project_deployer/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../springboot_react_webpack/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

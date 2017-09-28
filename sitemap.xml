@@ -36,6 +36,12 @@
     </url>
         
     <url>
+     <loc>None/development/scrabble_resolver/</loc>
+     <lastmod>2017-09-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>None/development/springboot_react_webpack/</loc>
      <lastmod>2017-09-28</lastmod>
      <changefreq>daily</changefreq>
