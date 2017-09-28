@@ -11,6 +11,7 @@ The goal is to retrieve a maximum of words with these letters using your keyboar
 To validate a word, simply press the "Enter" key.
 
 To get new letters, press the "Space" bar.
+
 + Easy : Search words between 3 and 7 letters
 + Medium : Search words between 3 and 6 letters
 + Hard : Search words between 4 and 7 letters
@@ -28,6 +29,7 @@ If you are blocked, you can switch letters but be careful : you loose 5 points p
 
 Originally designed to run with a server, it's playable such as.
 If running with a server, 2 modes are availables :
+
 * 1 player : Try to beat your highscore. Include the *wordfighters_single.js* to enable the server pipe.
 * 2 players : Try to defeat your opponent hitting him/her. The longest the word found is, the stongest damages are !! Include the *wordfighters_multplayer.js* to enable the server pipe.
 
