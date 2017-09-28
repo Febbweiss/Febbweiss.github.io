@@ -11,10 +11,10 @@ The goal is to retrieve a maximum of words with these letters using your keyboar
 To validate a word, simply press the "Enter" key.
 
 To get new letters, press the "Space" bar.
-* Easy : Search words between 3 and 7 letters
-* Medium : Search words between 3 and 6 letters
-* Hard : Search words between 4 and 7 letters
-* Extreme : No escape ! You can\'t have new letters before reach all words !
++ Easy : Search words between 3 and 7 letters
++ Medium : Search words between 3 and 6 letters
++ Hard : Search words between 4 and 7 letters
++ Extreme : No escape ! You can\'t have new letters before reach all words !
         
 If you are blocked, you can switch letters but be careful : you loose 5 points per words not found !!
 
