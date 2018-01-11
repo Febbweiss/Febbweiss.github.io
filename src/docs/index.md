@@ -9,12 +9,15 @@ Different projects for different needs :
     - Java
 	    + [Scrabble resolver](/development/scrabble_resolver)
 		+ [Springboot / React / Webpack](/development/springboot_react_webpack)
+		+ [Small projects](/development/java_small_projects)
 	- NodeJS
 	    + [CloudBudget](/development/cloudbudget) (Express)
 	    + [Project deployer](/development/project_deployer) (Meteor)
 	- Client-side
 	    + [CloudBudget-AngularJS](/development/cloudbudget_angularjs) (Express / AngularJS)
 	    + [Durandal filebrowser widget](/development/filebrowser_durandal_widget) (DurandalJS)
+		+ [Durandal filebrowser widget](/development/filebrowser_durandal_widget) (DurandalJS)
+		+ [Library reader](/development/library_reader) (AngularJS)
 * Docker
     - Fullstack servers
 	    + [Log centralizer](/docker/docker_log_centralizer) ELK stack with Kafka
