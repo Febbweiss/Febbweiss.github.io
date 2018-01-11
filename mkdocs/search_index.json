@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome\n\n\nI made some projects and published them on \nGitHub\n.\nIn this space, you will find some of them. Basiclly, these pages are \nREADME\n files but with some adds and demos.\n\n\nDifferent projects for different needs :\n\n\n\n\nDevelopment\n\n\nJava\n\n\nScrabble resolver\n\n\nSpringboot / React / Webpack\n\n\n\n\n\n\nNodeJS\n\n\nCloudBudget\n (Express)\n\n\nProject deployer\n (Meteor)\n\n\n\n\n\n\nClient-side\n\n\nCloudBudget-AngularJS\n (Express / AngularJS)\n\n\nDurandal filebrowser widget\n (DurandalJS)\n\n\n\n\n\n\n\n\n\n\nDocker\n\n\nFullstack servers\n\n\nLog centralizer\n ELK stack with Kafka\n\n\nGoCD\n GoCD server and agents\n\n\n\n\n\n\nUtilities\n\n\nApache log generator\n\n\nJava log generator\n\n\n\n\n\n\n\n\n\n\nJavascript games\n\n\nSpace invaders\n\n\nPacman\n\n\nPyramid\n\n\nWord Fighters\n \n\n\nYahtzee", 
+            "text": "Welcome\n\n\nI made some projects and published them on \nGitHub\n.\nIn this space, you will find some of them. Basiclly, these pages are \nREADME\n files but with some adds and demos.\n\n\nDifferent projects for different needs :\n\n\n\n\nDevelopment\n\n\nJava\n\n\nScrabble resolver\n\n\nSpringboot / React / Webpack\n\n\nSmall projects\n\n\n\n\n\n\nNodeJS\n\n\nCloudBudget\n (Express)\n\n\nProject deployer\n (Meteor)\n\n\n\n\n\n\nClient-side\n\n\nCloudBudget-AngularJS\n (Express / AngularJS)\n\n\nDurandal filebrowser widget\n (DurandalJS)\n\n\nDurandal filebrowser widget\n (DurandalJS)\n\n\nLibrary reader\n (AngularJS)\n\n\n\n\n\n\n\n\n\n\nDocker\n\n\nFullstack servers\n\n\nLog centralizer\n ELK stack with Kafka\n\n\nGoCD\n GoCD server and agents\n\n\n\n\n\n\nUtilities\n\n\nApache log generator\n\n\nJava log generator\n\n\n\n\n\n\n\n\n\n\nJavascript games\n\n\nSpace invaders\n\n\nPacman\n\n\nPyramid\n\n\nWord Fighters\n \n\n\nYahtzee", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome", 
-            "text": "I made some projects and published them on  GitHub .\nIn this space, you will find some of them. Basiclly, these pages are  README  files but with some adds and demos.  Different projects for different needs :   Development  Java  Scrabble resolver  Springboot / React / Webpack    NodeJS  CloudBudget  (Express)  Project deployer  (Meteor)    Client-side  CloudBudget-AngularJS  (Express / AngularJS)  Durandal filebrowser widget  (DurandalJS)      Docker  Fullstack servers  Log centralizer  ELK stack with Kafka  GoCD  GoCD server and agents    Utilities  Apache log generator  Java log generator      Javascript games  Space invaders  Pacman  Pyramid  Word Fighters    Yahtzee", 
+            "text": "I made some projects and published them on  GitHub .\nIn this space, you will find some of them. Basiclly, these pages are  README  files but with some adds and demos.  Different projects for different needs :   Development  Java  Scrabble resolver  Springboot / React / Webpack  Small projects    NodeJS  CloudBudget  (Express)  Project deployer  (Meteor)    Client-side  CloudBudget-AngularJS  (Express / AngularJS)  Durandal filebrowser widget  (DurandalJS)  Durandal filebrowser widget  (DurandalJS)  Library reader  (AngularJS)      Docker  Fullstack servers  Log centralizer  ELK stack with Kafka  GoCD  GoCD server and agents    Utilities  Apache log generator  Java log generator      Javascript games  Space invaders  Pacman  Pyramid  Word Fighters    Yahtzee", 
             "title": "Welcome"
         }, 
         {
@@ -89,6 +89,86 @@
             "location": "/development/filebrowser_durandal_widget/#licence", 
             "text": "Source code is under  MIT Licence     \n  Fork me on GitHub", 
             "title": "Licence"
+        }, 
+        {
+            "location": "/development/java_small_projects/", 
+            "text": "Introduction\n\n\nIn this section, I introduce some small Java projects\n\n\nRabbits vs Hunter\n\n\nSource : \nGitHub repository\n\n\nGoal\n\n\nThis projects manages a rabbit hunt.\nIt's possible to change some criteria such as trees, burrows and rabbits counts.\n\n\nBuilding\n\n\nUsing maven, just execute the following command :\n\n\nmvn clean package\n\n\n\n\nIn the new \ntarget\n folder, you will find the \nrabbits-vs-hunter-[version]-jar-with-dependencies.jar\n jar file. This jar contains all dependencies.\n\n\nRunning\n\n\nExecute the built jar :\n\n\njava -jar rabbits-vs-hunter-[version]-jar-with-dependencies.jar\n\n\n\n\nWord lister\n\n\nSource : \nGitHub repository\n\n\nGoal\n\n\nThis project prints all words in a file, one per line.\nAll compound words and numbers are preserved (such as \nbyte-input\n and \n-5.52%\n for example).\n\n\nBuilding\n\n\nUsing maven, just execute the following command :\n\n\nmvn clean package\n\n\n\n\nIn the new \ntarget\n folder, you will find the \nword-lister-[version]-jar-with-dependencies.jar\n jar file. This jar contains all dependencies.\n\n\nRunning\n\n\nExecute the built jar with the \n--help\n parameter to display the help message.\nTo parse a file, execute the following command :\n\n\njava -jar word-lister-[version]-jar-with-dependencies.jar \npath_to_a_file", 
+            "title": "Java small projects"
+        }, 
+        {
+            "location": "/development/java_small_projects/#introduction", 
+            "text": "In this section, I introduce some small Java projects", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/development/java_small_projects/#rabbits-vs-hunter", 
+            "text": "Source :  GitHub repository", 
+            "title": "Rabbits vs Hunter"
+        }, 
+        {
+            "location": "/development/java_small_projects/#goal", 
+            "text": "This projects manages a rabbit hunt.\nIt's possible to change some criteria such as trees, burrows and rabbits counts.", 
+            "title": "Goal"
+        }, 
+        {
+            "location": "/development/java_small_projects/#building", 
+            "text": "Using maven, just execute the following command :  mvn clean package  In the new  target  folder, you will find the  rabbits-vs-hunter-[version]-jar-with-dependencies.jar  jar file. This jar contains all dependencies.", 
+            "title": "Building"
+        }, 
+        {
+            "location": "/development/java_small_projects/#running", 
+            "text": "Execute the built jar :  java -jar rabbits-vs-hunter-[version]-jar-with-dependencies.jar", 
+            "title": "Running"
+        }, 
+        {
+            "location": "/development/java_small_projects/#word-lister", 
+            "text": "Source :  GitHub repository", 
+            "title": "Word lister"
+        }, 
+        {
+            "location": "/development/java_small_projects/#goal_1", 
+            "text": "This project prints all words in a file, one per line.\nAll compound words and numbers are preserved (such as  byte-input  and  -5.52%  for example).", 
+            "title": "Goal"
+        }, 
+        {
+            "location": "/development/java_small_projects/#building_1", 
+            "text": "Using maven, just execute the following command :  mvn clean package  In the new  target  folder, you will find the  word-lister-[version]-jar-with-dependencies.jar  jar file. This jar contains all dependencies.", 
+            "title": "Building"
+        }, 
+        {
+            "location": "/development/java_small_projects/#running_1", 
+            "text": "Execute the built jar with the  --help  parameter to display the help message.\nTo parse a file, execute the following command :  java -jar word-lister-[version]-jar-with-dependencies.jar  path_to_a_file", 
+            "title": "Running"
+        }, 
+        {
+            "location": "/development/library_reader/", 
+            "text": "Introduction\n\n\nPDF-Reader is a small web application listing PDF documents and allowing to visualize them.\n\n\nBuilding\n\n\nThis project is built using \nBower\n.\nJust install it and run :\n\n\nbower install\n\n\n\n\nHow it works\n\n\nWritten in AngularJS, PDF-Reader calls a resource (\n/data/documents.json\n) providing a list of documents such as :\n\n\n[{\ntitle\n: \nMy report\n, \nlink\n: \nreport.pdf\n}]\n\n\n\n\nThe list is rendering such as a paginated table with a quick filter input. Clicking on the \nView\n button load the document in the right side pane.\n\n\nDocuments are stored in a \ndocuments\n folder.\n\n\nBuilt with\n\n\n\n\nUI : \nBulma\n\n\nMVC : \nAngularJS\n\n\nPDF Reader : \nangular-pdf\n\n\nPagination : \nangularUtils\n\n\nIcons : \nFont Awesome\n\n\n\n\nLicence :\n\n\nSource code is under \nMIT Licence\n\n\n\n\n\n \nFork me on GitHub", 
+            "title": "Library reader"
+        }, 
+        {
+            "location": "/development/library_reader/#introduction", 
+            "text": "PDF-Reader is a small web application listing PDF documents and allowing to visualize them.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/development/library_reader/#building", 
+            "text": "This project is built using  Bower .\nJust install it and run :  bower install", 
+            "title": "Building"
+        }, 
+        {
+            "location": "/development/library_reader/#how-it-works", 
+            "text": "Written in AngularJS, PDF-Reader calls a resource ( /data/documents.json ) providing a list of documents such as :  [{ title :  My report ,  link :  report.pdf }]  The list is rendering such as a paginated table with a quick filter input. Clicking on the  View  button load the document in the right side pane.  Documents are stored in a  documents  folder.", 
+            "title": "How it works"
+        }, 
+        {
+            "location": "/development/library_reader/#built-with", 
+            "text": "UI :  Bulma  MVC :  AngularJS  PDF Reader :  angular-pdf  Pagination :  angularUtils  Icons :  Font Awesome", 
+            "title": "Built with"
+        }, 
+        {
+            "location": "/development/library_reader/#licence", 
+            "text": "Source code is under  MIT Licence   \n  Fork me on GitHub", 
+            "title": "Licence :"
         }, 
         {
             "location": "/development/project_deployer/", 

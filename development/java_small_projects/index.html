@@ -8,7 +8,7 @@
   
   
   
-  <title>Yahtzee - Febbweiss</title>
+  <title>Java small projects - Febbweiss</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -25,9 +25,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Yahtzee";
-    var mkdocs_page_input_path = "games/yahtzee.md";
-    var mkdocs_page_url = "/games/yahtzee/";
+    var mkdocs_page_name = "Java small projects";
+    var mkdocs_page_input_path = "development/java_small_projects.md";
+    var mkdocs_page_url = "/development/java_small_projects/";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js"></script>
@@ -74,56 +74,67 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../development/cloudbudget/">Cloudbudget</a>
+        <a class="" href="../cloudbudget/">Cloudbudget</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../development/cloudbudget_angularjs/">Cloudbudget angularjs</a>
+        <a class="" href="../cloudbudget_angularjs/">Cloudbudget angularjs</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../development/filebrowser_durandal_widget/">Filebrowser durandal widget</a>
+        <a class="" href="../filebrowser_durandal_widget/">Filebrowser durandal widget</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Java small projects</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#introduction">Introduction</a></li>
+                
+                    <li><a class="toctree-l4" href="#rabbits-vs-hunter">Rabbits vs Hunter</a></li>
+                
+                    <li><a class="toctree-l4" href="#word-lister">Word lister</a></li>
+                
+            
+            </ul>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../development/java_small_projects/">Java small projects</a>
+        <a class="" href="../library_reader/">Library reader</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../development/library_reader/">Library reader</a>
+        <a class="" href="../project_deployer/">Project deployer</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../development/project_deployer/">Project deployer</a>
+        <a class="" href="../scrabble_resolver/">Scrabble resolver</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../development/scrabble_resolver/">Scrabble resolver</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../../development/springboot_react_webpack/">Springboot react webpack</a>
+        <a class="" href="../springboot_react_webpack/">Springboot react webpack</a>
         
     </li>
 
@@ -174,48 +185,35 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../Space_invaders_stories/">Space invaders stories</a>
+        <a class="" href="../../games/Space_invaders_stories/">Space invaders stories</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../pacman/">Pacman</a>
+        <a class="" href="../../games/pacman/">Pacman</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../pyramid/">Pyramid</a>
+        <a class="" href="../../games/pyramid/">Pyramid</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../wordfighters/">Wordfighters</a>
+        <a class="" href="../../games/wordfighters/">Wordfighters</a>
         
     </li>
 
         
             
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Yahtzee</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#yahtzee">Yahtzee</a></li>
-                
-                    <li><a class="toctree-l4" href="#how-to">How to</a></li>
-                
-                    <li><a class="toctree-l4" href="#credits">Credits</a></li>
-                
-                    <li><a class="toctree-l4" href="#licences">Licences</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../../games/yahtzee/">Yahtzee</a>
         
     </li>
 
@@ -245,11 +243,11 @@
     
       
         
-          <li>Games &raquo;</li>
+          <li>Development &raquo;</li>
         
       
     
-    <li>Yahtzee</li>
+    <li>Java small projects</li>
     <li class="wy-breadcrumbs-aside">
       
         
@@ -263,32 +261,40 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="yahtzee">Yahtzee</h1>
-<p>The classical dice game Yahtzee</p>
-<h2 id="how-to">How to</h2>
-<p>The goal is to complete the two combinaisons grids with five dice</p>
-<p>Each player can launch three times the dice to have a combinaison. After each launch, the player chooses to keep or not some dice. Each combinaison has a score.</p>
-<p>When both grids are completed, their scores are added and the player with the higher score wins. If the upper grid has a score higher than 63 points, the player wins a bonus of 35 points.</p>
-<p><object data="/demo/yahtzee/index.html" width="620" height="870">
-    <embed src="/demo/yahtzee/index.html" width="620" height="870"> </embed>
-    <iframe scrolling="no" frameborder="0" src="/demo/yahtzee/index.html" style="width: 620px; height: 870px; overflow:hidden;">
-</iframe>
-</object></p>
-<h2 id="credits">Credits</h2>
-<ul>
-<li>Graphics : Fabrice Ecaille aka Febbweiss</li>
-<li>Code : Fabrice Ecaille aka Febbweiss</li>
-</ul>
-<h2 id="licences">Licences</h2>
-<p>Copyright (c) 2013 Fabrice ECAILLE aka Febbweiss</p>
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
-<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
-<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
-<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" />
-<!--[if lt IE 9]>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.ie.min.css" />
-<![endif]-->
- <a class="github-fork-ribbon" href="https://github.com/Febbweiss/js-yahtzee" target="_blank" title="Fork me on GitHub">Fork me on GitHub</a></p>
+                <h1 id="introduction">Introduction</h1>
+<p>In this section, I introduce some small Java projects</p>
+<h2 id="rabbits-vs-hunter">Rabbits vs Hunter</h2>
+<p>Source : <a href="https://github.com/Febbweiss/rabbits-vs-hunter" target="_blank" title="Fork me on GitHub">GitHub repository</a></p>
+<h3 id="goal">Goal</h3>
+<p>This projects manages a rabbit hunt.
+It's possible to change some criteria such as trees, burrows and rabbits counts.</p>
+<h3 id="building">Building</h3>
+<p>Using maven, just execute the following command :</p>
+<pre><code>mvn clean package
+</code></pre>
+
+<p>In the new <em>target</em> folder, you will find the <em>rabbits-vs-hunter-[version]-jar-with-dependencies.jar</em> jar file. This jar contains all dependencies.</p>
+<h3 id="running">Running</h3>
+<p>Execute the built jar :</p>
+<pre><code>java -jar rabbits-vs-hunter-[version]-jar-with-dependencies.jar
+</code></pre>
+
+<h2 id="word-lister">Word lister</h2>
+<p>Source : <a href="https://github.com/Febbweiss/word-lister" target="_blank" title="Fork me on GitHub">GitHub repository</a></p>
+<h3 id="goal_1">Goal</h3>
+<p>This project prints all words in a file, one per line.
+All compound words and numbers are preserved (such as <em>byte-input</em> and <em>-5.52%</em> for example).</p>
+<h3 id="building_1">Building</h3>
+<p>Using maven, just execute the following command :</p>
+<pre><code>mvn clean package
+</code></pre>
+
+<p>In the new <em>target</em> folder, you will find the <em>word-lister-[version]-jar-with-dependencies.jar</em> jar file. This jar contains all dependencies.</p>
+<h3 id="running_1">Running</h3>
+<p>Execute the built jar with the <em>--help</em> parameter to display the help message.
+To parse a file, execute the following command :</p>
+<pre><code>java -jar word-lister-[version]-jar-with-dependencies.jar &lt;path_to_a_file&gt;
+</code></pre>
               
             </div>
           </div>
@@ -296,8 +302,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="../library_reader/" class="btn btn-neutral float-right" title="Library reader">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-        <a href="../wordfighters/" class="btn btn-neutral" title="Wordfighters"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+        <a href="../filebrowser_durandal_widget/" class="btn btn-neutral" title="Filebrowser durandal widget"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -325,8 +333,10 @@
           <a href="https://github.com/febbweiss/" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../wordfighters/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../filebrowser_durandal_widget/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../library_reader/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
